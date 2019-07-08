@@ -1,0 +1,501 @@
+
+导航栏
+*/
+.nav {
+    border-top: 0.25rem solid #DFDFDF;
+    margin-bottom: 1.25rem;
+}
+.nav ul{
+    width: 96%;
+    margin: 0 2%;
+    height: auto;
+    overflow: hidden;
+}
+.nav ul li{
+    display: table-cell;
+    text-align: center;
+    height:100%;
+    padding:1.875rem 0px;
+    width: 21rem;
+}
+.nav .nav-head li{
+    border-bottom: 0.25rem solid #DEDEDE;
+}
+.nav ul .nav-middel{
+    border-left: 0.25rem solid #DEDEDE;
+    border-right: 0.25rem solid #DEDEDE;
+}
+.nav ul li a{
+    height:80%;
+    color: #535353;
+    font-size: 24px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.nav ul li a img{
+    display: block;
+    margin: 0rem auto 1rem auto;
+    padding-top: 0.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+
+/*
+专业课程
+*/
+.inner{
+    display: block;
+}
+.inner .leaf_head{
+    height: 6rem;
+    color: white;
+    background-color:#2F8BCE;
+}
+
+.inner .leaf_head img{
+    height: 3.75rem;
+    width: 3.75rem;
+    padding: 1.25rem;
+    float: left;
+}
+.inner .leaf_head h2{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2.75rem;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+.inner .leaf_head a{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Microsoft YaHei";
+    margin-right: 5%;
+    padding: 1.75rem 0;
+    float: right;
+}
+.inner .leaf_main{
+    height: auto;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 2rem;
+}
+.inner .leaf_main ul{
+    height: 100%;
+}
+
+.inner .leaf_main li{
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 19rem;
+    width: 100%;
+    border-width: 0 0 0.25rem 0;
+    border-color:#D3D3D3;
+    border-style:solid;
+}
+.inner .leaf_main a{
+    display:block;
+    margin: 0;
+    padding-right:10%;
+    height: 19rem;
+    width: 90%;
+    text-decoration:none;
+    background-color: white;
+    background: url(../img/next.png) 95% center no-repeat;
+    overflow: hidden;
+}
+.inner .leaf_main a:hover{
+    background-color:#F0F8FF;
+}
+
+.inner .leaf_main figure{
+    display: block;
+    position:relative;
+    margin-top: 3rem;
+    margin-left:  3rem;
+    padding: 0;
+    height: 12.5rem;
+    width: 12.5rem;
+    float: left;
+}
+.inner .leaf_main .inner_img{
+    height: 12.5rem;
+    width: 12.5rem;
+    border-color:#DEDEDE;
+    border-style:solid;
+    border-radius: 1rem;
+
+}
+.inner .leaf_main .txt_img{
+    display:block;
+    float: left;
+    position:relative;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    float: left;
+    //padding-left: 17.5rem;
+    width: 60%;
+    height: auto;
+}
+.inner .leaf_main .txt_img img{
+    width: 13rem;
+    height: 3.75rem;
+
+}
+.inner .leaf_main .txt_img .txt {
+    margin: 0px;
+    font-size: 32px;
+    color: black;
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+}
+
+.inner .leaf_main figure:before{
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:1;
+    margin-left: 1px;
+    margin-top: 1px;
+    top:0;
+    left:0;
+    border:25px solid transparent;
+    border-top:25px solid #2F8BCE;
+    border-left:25px solid #2F8BCE;
+    border-radius:10px 0 0;
+    width:0;
+    height:0;
+}
+/*
+专家介绍
+*/
+
+.inner .diamond_head{
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color:#9ACD32;
+}
+
+.inner .diamond_head img{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    float: left;
+}
+.inner .diamond_head h2{
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 2.75rem;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+.inner .diamond_head a{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Microsoft YaHei";
+    text-decoration:none;
+    margin-right: 5%;
+    padding: 30px 0;
+    float: right;
+}
+.inner .diamond_main{
+    height: auto;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.inner .diamond_main ul{
+    height: 100%;
+}
+
+.inner .diamond_main li{
+    padding: 0;
+    margin: 0;
+
+    height: 305px;
+    width: 100%;
+    border-width: 0 0 3px 0;
+    border-color:#D3D3D3;
+    border-style:solid;
+}
+.inner .diamond_main a{
+    display:block;
+    margin: 0;
+    padding-right:10%;
+    height: 306px;
+    width: 90%;
+    text-decoration:none;
+    background-color: white;
+    background: url(../img/next.png) 95% center no-repeat;
+}
+.inner .diamond_main a:hover{
+    background-color:#F0F8FF;
+}
+
+.inner .diamond_main figure{
+    display: block;
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 3rem;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.inner .diamond_main .inner_img{
+    height: 200px;
+    width: 200px;
+    border-color:#DEDEDE;
+    border-style:solid;
+    border-radius: 10px;
+
+}
+.inner .diamond_main .name_txt{
+    display:block;
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-left: 280px;
+    width: 620px;
+    color: black;
+    line-height: 50px;
+    font-family: "Microsoft YaHei";
+}
+.inner .diamond_main .name_txt .name {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.inner .diamond_main .name_txt .txt {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+/* .inner .diamond_main figure:before{
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:1;
+    top:0;
+    left:0;
+    margin-left: 1px;
+    margin-top: 1px;
+    border:25px solid transparent;
+    border-top:25px solid #9ACD32;
+    border-left:25px solid #9ACD32;
+    border-radius:10px 0 0;
+    width:0;
+    height:0;
+} */
+/*
+课程资料
+*/
+
+.inner .file_head{
+    height: 100px;
+    color: white;
+    background-color:#015999;
+}
+
+.inner .file_head img{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    float: left;
+}
+.inner .file_head h2{
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 2.75rem;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+.inner .file_head a{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Microsoft YaHei";
+    text-decoration:none;
+    margin-right: 5%;
+    padding: 30px 0;
+    float: right;
+}
+.inner .file_main{
+    width: 100%;
+}
+.inner .file_main li{
+    margin: 80px 145px;
+    border-color:#DEDEDE;
+    border-style:solid;
+    border-radius: 10px;
+}
+.inner .file_main li:before{
+    content:"";
+    display:block;
+    position:relative;
+    z-index:1;
+    margin: 0;
+    top:0;
+    left:0;
+    border:25px solid transparent;
+    border-top:25px solid #015999;
+    border-left:25px solid #015999;
+    border-radius:10px 0 0;
+    width:0;
+    height:0;
+    float: left;
+}
+.inner .file_main li a img{
+    height: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.inner .file_main li h2{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 1.8rem;
+    font-weight:bold;
+    font-family: "Microsoft YaHei";
+}
+.inner .file_main li p{
+    text-align: center;
+    margin: 10px 100px;
+    color: #868686;
+    font-size: 1.3rem;
+    font-weight:normal;
+    font-family: "Microsoft YaHei";
+}
+.inner .file_main li .file_href {
+    height: 60px;
+    padding:20px 100px;
+}
+.inner .file_main li .file_href .href_blue{
+    display: block;
+    height: 48px;
+    width: 155px;
+    color: black;
+    text-align: center;
+    line-height:48px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    background-color: #C6E5FF;
+    text-decoration:none;
+    float: left;
+}
+.inner .file_main li .file_href .href_yellow{
+    display: block;
+    height: 48px;
+    width: 155px;
+    color: black;
+    text-align: center;
+    line-height:48px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    background-color: #FFFFCC;
+    text-decoration:none;
+    float: left;
+    margin-left: 30px;
+}
+.inner .file_main li .file_href .href_red{
+    display: block;
+    height: 48px;
+    width: 155px;
+    color: white;
+    text-align: center;
+    line-height:48px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    background-color: #ED7550;
+    text-decoration:none;
+    float: left;
+    margin-left: 30px;
+}
+/*
+机构新闻
+*/
+.inner .news_head{
+    height: 100px;
+    color: white;
+    background-color:#EC6F13;
+}
+
+.inner .news_head img{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    float: left;
+}
+.inner .news_head h2{
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 2.75rem;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+.inner .news_head a{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Microsoft YaHei";
+    text-decoration:none;
+    margin-right: 5%;
+    padding: 30px 0;
+    float: right;
+}
+
+
+.inner .news_main ul{
+    height: 100%;
+}
+
+.inner .news_main a{
+    padding: 40px 0;
+    padding-left: 5%;
+    height: auto;
+    border-width: 0 0 3px 0;
+    border-color:#D3D3D3;
+    border-style:dashed;
+    display:block;
+    margin: 0;
+    padding-right:10%;
+    height: auto;
+    width: 85%;
+    text-decoration:none;
+    background-color: white;
+    background: url(../img/next.png) 95% center no-repeat;
+}
+.inner .news_main a:hover{
+    background-color:#F0F8FF;
+}
+
+.inner .news_main a h2{
+    font-size: 1.8em;
+    color: #EC6F13;
+    border: 2px solid #EC6F13;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.inner .news_main a p{
+    color: #575757;
+    font-size: 1.7em;
+    text-align: left;
+    line-height: 45px;
+    text-decoration:underline;
+}

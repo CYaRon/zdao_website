@@ -1,0 +1,110 @@
+
+.content {
+    width: 100%;
+}
+.content .subnav{
+    display: block;
+    width: 95%;
+    height: auto;
+    padding: 10px 2.5%;
+}
+.content .subnav > p{
+    display: block;
+    width: 95%;
+    height: 50px;
+    padding: 10px 2.5%;
+    color: #777576;
+    background-color: #F7F7F7;
+    font-size: 2em;
+}
+.content .subnav > p > a{
+    color: #777576;
+    font-weight: bold;
+}
+.content .reminder{
+    width: 90%;
+    margin: 10px 2.5%;
+    padding: 20px 2.5%;
+    background-color: #FFFFE1;
+    border: 1px solid #E7E7CD;
+
+}
+.content .reminder > p{
+    color: #FD0001;
+    font-size: 28px;
+}
+
+
+.content .downlist{
+    width: 90%;
+    margin: 10px 2.5%;
+    padding: 20px 2.5%;
+}
+
+.content .downlist > li{
+    width: 100%;
+}
+
+.content .downlist > li > a{
+    width: 100%;
+}
+
+
+.content .downlist > li > a > img{
+    width: 155px;
+    height: 155px;
+    border-radius: 155px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content .downlist .message{
+    width: 700px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+.content .downlist .message > h2{
+    color: #333333;
+}
+.content .downlist .message > p{
+    margin-top: 20px;
+    color: #767873;
+}
+
+.content .page-index{
+    overflow: hidden;
+    width: 98%;
+    height: auto;
+    background-color: #FFF;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 2%;
+}
+.content .page-index li{
+    width: 100%;
+}
+.content .page-index li a:hover{
+    background-color: #FF4900;
+    color: #FFF;
+}
+.content .page-index li a{
+    display: block;
+    width: 17%;
+    height: 100px;
+    background-color: #F7F7F7;
+    margin: 0px 1%;
+    float: left;
+    color:#343434;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid #EAEAEA;
+}
+.content .page-index li #selected{
+    background-color: #FF4900;
+    color: #FFF;
+}
+
+//

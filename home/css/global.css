@@ -1,0 +1,274 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    color:#000;
+    background:#FFF;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,
+fieldset,input,textarea,p,blockquote,th,td {
+margin:0;
+padding:0;
+}
+ul,li{
+    list-style:none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+@font-face{
+    font-family: CataneoBT;
+    src: url('../font/TT0952M.TTF');
+}
+@font-face{
+    font-family: fangzheng;
+    src: url('../font/fangzheng.otf');
+}
+@font-face{
+    font-family: fangtang;
+    src: url('../font/fangtang.otf');
+}
+@font-face{
+    font-family: xinqingnian;
+    src: url('../font/xinqingnian.otf');
+}
+
+/*
+顶部
+*/
+.head{
+    margin: 0 auto;
+    width: 1050px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    //vertical-align: middle;
+
+    //box-shadow: darkgrey 10px 10px 30px 5px ;
+}
+#front-h{
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    display: none;
+    opacity: 1;
+    position: fixed;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    box-shadow: darkgrey 10px 10px 30px 5px ;
+    z-index: 10;
+}
+
+
+.head-nav{
+    position: relative;
+    width: 1050px;
+    height: 57px;
+    margin: 50px auto 30px auto;
+    vertical-align: top;
+}
+
+.head-nav li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.head-nav li a{
+    position: relative;
+    display: block;
+    height: 35px;
+    width: 60px;
+    margin: auto;
+    font-size: 15px;
+    padding: 10px 25px 15px 45px;
+    color: #000;
+    //background-image: url(../img/heart.png);
+}
+
+.head-nav li a{
+    //font-size: 40px;
+    border-left: solid #E5E5E5 2px;
+}
+
+.head-nav .logo{
+    padding: 0;
+    //margin: 0 auto;
+    width: 213px;
+    height: 57px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.head-nav .logo a{
+    display: block;
+    padding: 0;
+    margin-top: 0px;
+    width: 213px;
+    height: 57px;
+    border: none;
+}
+.head .head-nav .logo > a > img, #front-h  .head-nav .logo> a > img{
+    width: 178px;
+    height: 47px;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    /* margin: 50px auto 30px 0px; */
+}
+
+.head-nav-li-1 a:before{
+    left: 10px;
+    top: 20px;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/courses.png);
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.head-nav-li-2 a:before{
+    left: 10px;
+    top: 20px;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/teachers.png);
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.head-nav-li-3 a:before{
+    left: 10px;
+    top: 20px;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/papers.png);
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.head-nav-li-4 a:before{
+    left: 10px;
+    top: 20px;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/articles.png);
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.head-nav-li-5 a:before{
+    left: 10px;
+    top: 20px;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/counseling.png);
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.head-nav-li-6 a:before{
+    left: 10px;
+    top: 20px;
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/about.png);
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.head-nav > li > a > p {
+    text-align: center;
+}
+.head-nav .nav-en{
+    font-size: 14px;
+
+}
+.head-nav .head-nav-li-1 .nav-en{
+    color: #EB5950;
+}
+.head-nav .head-nav-li-2 .nav-en{
+    color: #8CB11C;
+}
+.head-nav .head-nav-li-3 .nav-en{
+    color: #2F8ACE;
+}
+.head-nav .head-nav-li-4 .nav-en{
+    color: #9E0934;
+}
+.head-nav .head-nav-li-5 .nav-en{
+    color: #01589A;
+    text-indent: -5px;
+}
+.head-nav .head-nav-li-6 .nav-en{
+    color: #ED6F14;
+}
+
+.subnav{
+    border-top: 1px solid #D9D9D9;
+    width: 100%;
+    height: 36px;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+.subnav > p{
+    width: 1050px;
+    height: auto;
+    font-size: 16px;
+    margin: 10px auto;
+    line-height: 16px;
+}
+.subnav > p > a{
+    color: #3097D1;
+}
+
+.ad-top {
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 20px;
+    height: auto;
+}
+.ad-top > img {
+    width: 1050px;
+}
+
+/*
+底部
+*/
+
+footer{
+    width: 1300px;
+    margin: auto;
+    height: auto;
+}
+footer .foot-main{
+    padding: 30px 0px;
+    background-color: #48808D;
+}
+footer img {
+    display: block;
+    width: 1300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.foot-main{
+    text-align: center;
+    color: #FFF;
+    margin-top: 0.6rem;
+    font-size: 20px;
+}
+.foot-main > p{
+    color: #FFF;
+    font-size: 20px;
+}
+.foot-main > p > a{
+    color: #FFF;
+    font-size: 20px;
+}

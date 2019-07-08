@@ -1,0 +1,81 @@
+
+.content {
+    width: 100%;
+}
+.content .subnav{
+    display: block;
+    width: 95%;
+    height: auto;
+    padding: 10px 2.5%;
+}
+.content .subnav > p{
+    display: block;
+    width: 95%;
+    height: 50px;
+    padding: 10px 2.5%;
+    color: #777576;
+    background-color: #F7F7F7;
+    font-size: 2em;
+    //单行文本溢出 省略
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.content .subnav > p > a{
+    color: #777576;
+    font-weight: bold;
+}
+/* .content .subnav p #p-right{
+    display:block;
+    float: right;
+} */
+
+.content .files{
+    width: 100%;
+    height: auto;
+    background-color: #F7F7F7;
+    margin-bottom: 30px;
+}
+.content .files li{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.content .files a{
+    display: block;
+    width: 95%;
+    height: 150px;
+    padding: 30px 2.5%;
+    background-color: #FFF;
+    cursor:pointer;
+}
+.content .files a:hover{
+    background-color: #F5F5F5;
+}
+.content .files li h2{
+    display: block;
+    color: #000;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.content .files li p{
+    display:block;
+    font-size: 2em;
+    color: #777576;
+}
+
+
+/*
+ad
+*/
+.content .ad-bottom{
+    width: 100%;
+    height: 110px;
+    background-color: #F7F7F7;
+}
+.content .ad-bottom img{
+    width: 1000px;
+    height: 90px;
+    margin: 10px 10px;
+}

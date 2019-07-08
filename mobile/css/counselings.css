@@ -1,0 +1,191 @@
+
+.content {
+    width: 100%;
+}
+.content .subnav{
+    display: block;
+    width: 95%;
+    height: auto;
+    padding: 10px 2.5%;
+}
+.content .subnav p{
+    display: block;
+    width: 95%;
+    height: 50px;
+    padding: 10px 2.5%;
+    color: #777576;
+    background-color: #F7F7F7;
+    font-size: 2em;
+}
+.content .subnav p a{
+    color: #777576;
+    font-weight: bold;
+}
+.content .subnav p #p-right{
+    display:block;
+    float: right;
+}
+
+.content .counseling {
+    width: 95%;
+    padding: 10px 2.5%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+
+}
+.content .counseling h1{
+    padding: 0;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 60px;
+    font-size: 42px;
+    color: #000;
+    font-weight: normal;
+}
+
+.content .counseling h3{
+    text-align: left;
+    margin-left: 50px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #777777;
+    font-weight: normal;
+}
+
+.content .counseling p{
+    margin-bottom: 10px;
+    text-indent: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #333333;
+}
+.content .counseling-bottom{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border-top: 2px solid #F4F4F4;
+    margin: 0px 10%;
+    padding: 50px 0px;
+}
+.content .counseling-bottom ul{
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    margin: 0px 25%;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+.content .counseling-bottom ul li{
+    width: 180px;
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+}
+.content .counseling-bottom ul li a{
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+.content .counseling-bottom ul #counseling-up a{
+    color: #E97664;
+    border: 2px solid #E97664;
+}
+.content .counseling-bottom ul #counseling-up a:hover{
+    color: #FFF;
+    background-color: #E97664;
+}
+.content .counseling-bottom ul #counseling-share a{
+    color: #78CD78;
+    border: 2px solid #78CD78;
+}
+.content .counseling-bottom ul #counseling-share a:hover{
+    color: #FFF;
+    background-color: #78CD78;
+}
+
+.content .counseling-jump{
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 2.5%;
+    margin-bottom: 100px;
+}
+.content .counseling-jump #jump-up{
+    width: 180px;
+    height: 100px;
+    margin: 10px 10px;
+    float: left;
+}
+.content .counseling-jump #jump-up a{
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2em;
+    color: #5A5A5A;
+    //border: 2px solid #5A5A5A;
+    box-shadow: 3px 3px 5px #EEEEEE;
+}
+.content .counseling-jump #jump-down{
+    width: 180px;
+    height: 100px;
+    margin: 10px 10px;
+    float: right;
+}
+.content .counseling-jump #jump-down a{
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2em;
+    color: #5A5A5A;
+    //border: 2px solid #5A5A5A;
+    box-shadow: 3px 3px 5px #EEEEEE;
+}
+
+/*
+ad
+*/
+/* .content .ad-bottom{
+    width: 100%;
+    height: 110px;
+    background-color: #F7F7F7;
+}
+.content .ad-bottom img{
+    width: 1000px;
+    height: 90px;
+    margin: 10px 10px;
+}
+
+.content .course-head {
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    margin: 0px 20%;
+}
+.content .course-head .level-1{
+    width: 30%;
+    height: 100px;
+    float: left;
+    display: block;
+
+}
+.content .course-head .level-1 hr{
+    //align: center;
+    width: 40%;
+    color: #F7F7F7;
+    size: 3px;
+    margin: 50px 30%;
+    //align=left width=auto color=#990099 SIZE=3 noShade
+}
+
+.content .course-head p{
+    width: 30%;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    font-size: 2em;
+    text-align: center;
+    color: #585858;
+}
+*/

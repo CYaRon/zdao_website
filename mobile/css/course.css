@@ -1,0 +1,233 @@
+/* .ad-top{
+    width: 100%;
+    height: 110px;
+    background-color: #F7F7F7;
+}
+.ad-top img{
+    width: 1024px;
+    height: 90px;
+} */
+.content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.content .page-index{
+    overflow: hidden;
+    width: 98%;
+    height: auto;
+    background-color: #FFF;
+    margin-bottom: 30px;
+    margin-left: 2%;
+}
+.content .page-index li{
+    width: 100%;
+}
+.content .page-index li a:hover{
+    background-color: #FF4900;
+    color: #FFF;
+}
+.content .page-index li a{
+    display: block;
+    width: 17%;
+    height: 100px;
+    background-color: #F7F7F7;
+    margin: 0px 1%;
+    float: left;
+    color:#343434;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid #EAEAEA;
+}
+.content .page-index li #selected{
+    background-color: #FF4900;
+    color: #FFF;
+}
+
+
+
+////
+.leaf{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    overflow: hidden;
+}
+.leaf .leaf_head{
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color:#2F8BCE;
+    overflow: hidden;
+}
+.leaf .leaf_head > ul{
+    height: 67px;
+    margin-top: 18px;
+}
+.leaf .leaf_head > ul > li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+.leaf .leaf_head > ul > li > a{
+    display: block;
+    font-size: 36px;
+    font-family: "Microsoft YaHei";
+    color: #FFFFFF;
+    padding: 8px 10px;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+}
+.leaf .leaf_head .target{
+    color: #2F8BCE;
+    background-color: #FFF;
+    border: 2px solid #0764A9;
+    border-radius: 10px;
+}
+.leaf .leaf_head img{
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    float: left;
+}
+.leaf .leaf_head h2{
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 2.75rem;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+
+/* .leaf .leaf_head a{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Microsoft YaHei";
+    margin-right: 5%;
+    padding: 1.75rem 0;
+    float: right;
+} */
+.leaf .leaf_main{
+    height: auto;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.leaf .leaf_main ul{
+    height: 100%;
+}
+
+.leaf .leaf_main li{
+    padding: 0;
+    margin: 0;
+
+    height: 305px;
+    width: 100%;
+    border-width: 0 0 3px 0;
+    border-color:#D3D3D3;
+    border-style:solid;
+}
+.leaf .leaf_main a{
+    display:block;
+    margin: 0;
+    padding-right:10%;
+    height: 306px;
+    width: 90%;
+    text-decoration:none;
+    background-color: white;
+    background: url(../img/next.png) 95% center no-repeat;
+    //overflow: hidden;
+}
+.leaf .leaf_main a:hover{
+    background-color:#F0F8FF;
+}
+
+.leaf .leaf_main figure{
+    display: block;
+    position:relative;
+    margin-top: 50px;
+    margin-left: 3rem;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.leaf .leaf_main > li > a > figure > img{
+    height: 200px;
+    width: 200px;
+    border-color:#DEDEDE;
+    border-style:solid;
+    border-radius: 10px;
+
+}
+
+/* .leaf .leaf_main .leaf_img{
+    height: 12.5rem;
+    width: 12.5rem;
+    border-color:#DEDEDE;
+    border-style:solid;
+    border-radius: 1rem;
+
+}*/
+.leaf .leaf_main .txt_img{
+    display:block;
+    float: left;
+    position:relative;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    float: left;
+    //padding-left: 17.5rem;
+    width: 60%;
+    height: auto;
+}
+.leaf .leaf_main .txt_img >img{
+    width: 13rem;
+    height: 3.75rem;
+}
+
+.leaf .leaf_main .txt_img .txt {
+    margin: 0px;
+    font-size: 32px;
+    color: black;
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+}
+
+
+
+
+.leaf .leaf_main figure:before{
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:1;
+    margin-left: 1px;
+    margin-top: 1px;
+    top:0;
+    left:0;
+    border:25px solid transparent;
+    border-top:25px solid #2F8BCE;
+    border-left:25px solid #2F8BCE;
+    border-radius:10px 0 0;
+    width:0;
+    height:0;
+}
+
+/* .ad-bottom{
+    width: 100%;
+    height: auto;
+    background-color: #F7F7F7;
+    margin-bottom: 60px;
+}
+.ad-bottom img{
+    width: 1024px;
+    height: 122px;
+    margin: 18px 0;
+} */

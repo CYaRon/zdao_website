@@ -1,0 +1,72 @@
+
+.main{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 45px;
+    height: auto;
+}
+.main-right{
+    width: 276px;
+    float: right;
+    background-color: #FFF;
+    height: auto;
+}
+.main-right > img{
+    width: 276px;
+    height: auto;
+}
+
+.main-right > ul{
+    height: auto;
+}
+.main-right > ul> li {
+    margin: 25px auto;
+}
+.main-right > ul> li > a {
+    display: block;
+}
+.main-right > ul> li > a > img{
+    width: 276px;
+    height: 110px;
+}
+
+.main-left{
+    width: 1050px;
+    background-color: #FFF;
+    height: auto;
+}
+
+
+/**
+    文章内容
+*/
+
+.main-left .article{
+    height: auto;
+}
+.main-left .article >li {
+    display: block;
+    margin-bottom: 30px;
+    background-color: #FFF;
+    border-bottom: 1px dashed #E9E9E9;
+    //margin: 20px auto;
+}
+.main-left .article > li > a {
+    color: #000;
+
+}
+.main-left .article > li > a > h2{
+    font-family: CataneoBT;
+    font-size: 20px;
+    color: #343434;
+    margin-bottom: 5px;
+}
+
+.main-left .article > li > a > p{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    color: #707070;
+}
+
+//

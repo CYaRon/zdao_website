@@ -1,0 +1,613 @@
+
+/*
+    title
+*/
+.index-title{
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+.index-title >p{
+    margin: 0;
+    font-family: fangzheng;
+    color: black;
+    font-size: 40px;
+    line-height: 40px;
+}
+.index-title > p > span{
+    font-family: CataneoBT;
+    font-size: 32px;
+}
+.teacher-title > p > span{
+        color: green;
+}
+.course-title > p > span{
+        color: #46BBB2;
+}
+.article-title > p > span{
+        color: #A10E38;
+}
+.news-title > p > span{
+        color: #FF8426;
+}
+/*
+    专家介绍
+*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.Teachers_container {
+    width: 1100px;
+    height: 320px;
+    margin: 0px auto;
+    margin-top: 40px;
+    position: relative;
+    //overflow: hidden;
+}
+
+
+.Teachers_container .buttons {
+    width: 920px;
+    height: 150px;
+    line-height: 5px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 80;
+    overflow: hidden;
+}
+.Teachers_container .buttons ul{
+    width: auto;
+    height: auto;
+}
+.Teachers_container .buttons ul li{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 15px;
+}
+.Teachers_container .buttons ul li a {
+    //float: left;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    opacity: 0.5;
+}
+.Teachers_container .buttons .thumb1 a{
+    background: url(../img/cha1-vamik.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .thumb2 a{
+    background: url(../img/cha2-bonnie.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .thumb3 a{
+    background: url(../img/cha3-elliot.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .thumb4 a{
+    background: url(../img/cha4-kim.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .thumb5 a{
+    background: url(../img/cha5-sagman.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .thumb6 a{
+    background: url(../img/cha6-allen.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .thumb7 a{
+    background: url(../img/cha7-novick.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .thumb8 a{
+    background: url(../img/cha8-janet.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .thumb9 a{
+    background: url(../img/cha9-bessel.jpg) no-repeat 0 0;
+    background-size:contain;
+}
+.Teachers_container .buttons .color a{
+    opacity: 1;
+}
+
+
+
+.Teachers_container .Teachers_content {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    //top: 0;
+    //left: 50%;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.Teachers_container .Teachers_content li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 200px;
+    transition: all 0.5s ease;
+}
+
+.Teachers_container .Teachers_content li img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.Teachers_container .Teachers_content li h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px auto;
+    color: #434343;
+}
+.Teachers_container .Teachers_content li p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin: 5px auto;
+    color: #434343;
+}
+
+/* 按钮 箭头 样式
+*/
+.Teachers_container .teacher_btn_left, .Teachers_container .teacher_btn_right {
+    width: 126px;
+    height: 179px;
+    position: absolute;
+    top: 0px;
+    z-index: 50;
+    line-height: 179px;
+    content: "";
+}
+
+.Teachers_container .teacher_btn_left {
+    text-align: left;
+    left: 0;
+}
+
+.Teachers_container .teacher_btn_right {
+    text-align: right;
+    right: 0;
+}
+
+.Teachers_container i{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #CCDC9B;
+    border-radius: 50px;
+}
+.Teachers_container i:hover{
+    color: #CCDC9B;
+    background-color: green;
+}
+/* .Teachers_container .btn_close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    display: none;
+    line-height: 20px;
+    text-align: center;
+    background-color: #BCB9B9;
+    color: #fff;
+}
+
+.Teachers_container .btn_close i {
+    font-size: 18px;
+} */
+
+/* .Cooldog_container .buttons ul li a:last-child {
+    margin-right: 0;
+} */
+
+.Teachers_content .p1 {
+    transform: translate3d(0px, 0, 0) scale(1);
+    transform-origin: 0 50%;
+    opacity: 1;
+    z-index: 4;
+}
+
+.Teachers_content .p2 {
+    transform: translate3d(-750px, 0, 0) scale(1);
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.Teachers_content .p3 {
+    transform: translate3d(-1500px, 0, 0) scale(1);
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.Teachers_content .p4 {
+    transform: translate3d(750px, 0, 0) scale(1);
+
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+.Teachers_content .p5 {
+    transform: translate3d(1500px, 0, 0) scale(1);
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+.Teachers_content .p6 {
+    transform: translate3d(1500px, 0, 0) scale(1);
+
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+.Teachers_content .p7 {
+    transform: translate3d(1500px, 0, 0) scale(1);
+
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+.Teachers_content .p8 {
+    transform: translate3d(1500px, 0, 0) scale(1);
+
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+.Teachers_content .p9 {
+    transform: translate3d(1500px, 0, 0) scale(1);
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+.Teachers_content .p10 {
+    transform: translate3d(1500px, 0, 0) scale(1);
+
+    transform-origin: 0 50%;
+    opacity: 0.5;
+    z-index: 2;
+}
+/* .p5 {
+    transform: translate3d(220px, 0, 0) scale(0.81);
+    transform-origin: 0 50%;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.p6 {
+    transform: translate3d(425px, 0, 0) scale(0.81);
+    transform-origin: 0 50%;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.p7 {
+    transform: translate3d(625px, 0, 0) scale(0.81);
+    transform-origin: 0 50%;
+    opacity: 0.4;
+    z-index: 1;
+} */
+
+
+
+/* .teacher_pic {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.teacher_pic > li{
+    float: left;
+}
+.teacher_pic > li > img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+    border-radius:50%;
+}
+.teacher_pic .active > img{
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    width: 155px;
+    height: 155px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: grey;
+}
+#teacher_content{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+} */
+.index-more{
+    width: 250px;
+    margin: 20px auto;
+}
+.index-more > button{
+    font-size: 24px;
+    color: #FFF;
+    padding: 15px 50px;
+    border-radius: 12px;
+    background-color: #A9C556;
+}
+.index-more-2{
+    display: relative;
+    width: 500px;
+    margin: 20px auto;
+}
+.index-more-2 > a{
+    position: relative;
+    display: block;
+    padding: 10px 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.index-more-2 > a:hover {
+    text-decoration: none;
+}
+
+.index-more-2 :after{
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 11px 0 11px 11px;
+    border-style: solid;
+    border-color:transparent transparent transparent #fff;
+    -webkit-transition: all .25s;
+       -moz-transition: all .25s;
+        -ms-transition: all .25s;
+         -o-transition: all .25s;
+            transition: all .25s;
+}
+
+.index-more-course {
+    color: #2EB5AE;
+    border: solid 2px #2EB5AE;
+}
+
+.index-more-course:before{
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 12px 0 12px 12px;
+    border-style: solid;
+    border-color:transparent transparent transparent #2EB5AE;
+    -webkit-transition: transform .25s;
+      -moz-transition: transform .25s;
+       -ms-transition: transform .25s;
+        -o-transition: transform .25s;
+           transition: transform .25s;
+}
+.index-more-article {
+    color: #A62647;
+    border: solid 2px #A62647;
+}
+.index-more-article:before{
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 12px 0 12px 12px;
+    border-style: solid;
+    border-color:transparent transparent transparent #A62647;
+    -webkit-transition: transform .25s;
+      -moz-transition: transform .25s;
+       -ms-transition: transform .25s;
+        -o-transition: transform .25s;
+           transition: transform .25s;
+}
+.index-more-news {
+    color: #FF811D;
+    border: solid 2px #FF811D;
+}
+.index-more-news:before{
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 12px 0 12px 12px;
+    border-style: solid;
+    border-color:transparent transparent transparent #FF811D;
+    -webkit-transition: transform .25s;
+      -moz-transition: transform .25s;
+       -ms-transition: transform .25s;
+        -o-transition: transform .25s;
+           transition: transform .25s;
+}
+
+#button_left{
+    color: black;
+    background: none;
+    background-color: #FFF;
+}
+
+#button_right{
+    color: black;
+    background: none;
+    background-color: #FFF;
+}
+
+/*
+专业课程
+*/
+.course-content > li >a{
+    display: block;
+    width: 1000px;
+    height: 250px;
+    overflow: hidden;
+    margin: auto;
+    border: solid #B1A68A 2px;
+    margin-bottom: 30px;
+}
+.course-content > li > a > img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+.course-content .course-intro{
+    width: 750px;
+    color: black;
+    float: left;
+}
+.course-content .course-intro h3 {
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: dashed black 1px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.course-content .course-intro h3 > span{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    margin: 5px auto;
+    margin-right: 20px;
+    text-align: center;
+    color: #FFF;
+    background-color: red;
+}
+.course-content .course-intro h2 {
+    font-size: 24px;
+    line-height: 36px;
+    border-bottom: dashed black 1px;
+    padding-bottom: 10px;
+    margin: 10px auto;
+}
+.course-content .course-intro p {
+    font-size: 20px;
+}
+
+/*
+心理文章
+*/
+.article-content{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+.article-content > li{
+    height: 100px;
+    width: 420px;
+    margin: 20px 0px;
+    float: left;
+}
+.article-content .article-right{
+    margin-left: 140px;
+}
+.article-content > li > a{
+    display: inline-block;
+    height: 100px;
+    width: 450px;
+    margin: 0px 0px;
+    overflow: hidden;
+}
+
+.article-content > li > a > img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.article-content .article-intro{
+    width: 320px;
+    height: 100px;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+.article-content .article-intro h2{
+    color: #000;
+    margin-top: 0px;
+    font-size: 24px;
+}
+.article-content .article-intro p{
+    color: #7D7D7D;
+    height: auto;
+    width: 320px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+/*
+机构新闻
+*/
+.news-content{
+    width: 1000px;
+    margin: auto;
+}
+.news-content > li > a{
+    display:block;
+    height: 140px;
+    color: #545452;
+    font-size: 24px;
+    border-bottom: dashed 1px #545452;
+    overflow:hidden;
+    display: flex;
+}
+.news-content > li > a:hover{
+    text-decoration: none;
+}
+.news-content  .news-left{
+    width: 234px;
+    margin: auto;
+}
+
+.news-content  .news-left .news-column{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 24px;
+    color: #EE6E13;
+    border: solid 3px #EE6E13;
+}
+.news-content  .news-left > p {
+    text-align: center;
+    font-size: 20px;
+}
+.news-content  .news-right{
+    width: 700px;
+    margin: auto;
+}

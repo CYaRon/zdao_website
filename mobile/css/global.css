@@ -1,0 +1,202 @@
+html,body{
+    height: 100%;
+    width: 1024px;
+}
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,
+fieldset,input,textarea,p,blockquote,th,td {
+margin:0;
+padding:0;
+}
+body{
+    background-color: #FFF;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+@font-face{
+    font-family: CataneoBT;
+    src: url('../font/TT0952M.TTF');
+}
+@font-face{
+    font-family: fangzheng;
+    src: url('../font/fangzheng.otf');
+}
+@font-face{
+    font-family: fangtang;
+    src: url('../font/fangtang.otf');
+}
+@font-face{
+    font-family: xinqingnian;
+    src: url('../font/xinqingnian.otf');
+}
+/*
+top botton
+*/
+.top{
+    position: fixed; /* 绝对定位，fixed是相对于浏览器窗口定位。 */
+    top: 90%; /* 距离窗口顶部距离 */
+    left: 85%; /* 距离窗口左边的距离 */
+    width: 6rem;
+    height: 6rem;
+    z-index: 10; /* 层叠顺序，数值越大就越高。页面滚动的时候就不会被其他内容所遮挡。 */
+    opacity: 0.5;   /* Firefox、Chorme、Opera等主流浏览器识别 */
+    filter:alpha(opacity=50);   /* IE6及以上IE浏览器识别 */
+}
+.top:hover{
+    opacity: 1;
+}
+.head{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    border-top: 15px solid #E94B40;
+}
+.head .logo{
+    display: block;
+    padding: 2.625rem 2.25rem;
+    width: 15.5rem;
+    height: 4rem;
+    float: left;
+}
+.head .logo > img{
+    width: 15.5rem;
+    height: 4rem;
+}
+.head .nav {
+    line-height:2rem;
+    width: 44rem;
+    height: 2rem;
+    padding: 0;
+    padding-top: 4.5rem;
+    float: left;
+}
+.head .nav > li{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.head .nav > li > a{
+    display: block;
+    font-size: 1.75rem;
+    color: #545454;
+    font-family: fangtang;
+}
+
+
+.head .menu{
+    display: none;
+    width: 12rem;
+    height: 12rem;
+    float: right;
+}
+.head .menu img{
+    display: none;
+    width: 7.5rem;
+    height: 12rem;
+    margin-top: 1.25rem;
+    margin-left: 3.75rem;
+}
+.head .menu p{
+    display: none;
+    margin-top: 0.625rem;
+    margin-left: 5rem;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Microsoft YaHei";
+    color: #787878;
+}
+
+
+
+.head .top_pic {
+    clear: left;
+    height: auto;
+    width: 1024px;
+}
+.head .top_pic > img{
+    display: block;
+    width: 1024px;
+    height: 600px;
+}
+.head .top_ad {
+    clear: left;
+    height: auto;
+    width: 1000px;
+    margin: 20px auto;
+}
+.head .top_ad > img{
+    display: block;
+    width: 1000px;
+    height: 120px;
+}
+
+
+.inner{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+}
+/*
+底部
+*/
+.ad-bottom{
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    margin-bottom: 60px;
+}
+.ad-bottom img{
+    width: 1024px;
+    height: 122px;
+    margin: 18px 0;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+footer img {
+    display: block;
+    width: 100%;
+    height: 220px;
+}
+footer .foot-main{
+    background-color: #48808D;
+}
+.foot-main ul{
+    width: 790px;
+    margin: 0 auto;
+    padding: 75px 0 55px 0;
+}
+.foot-main ul li{
+    display: inline-block;
+    border-left: 0.125rem solid #FFF;
+    border-right: 0;
+    margin: 0;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+.foot-main ul .foot-txt1{
+    border-left:0;
+}
+.foot-main ul li a{
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline;
+    color: #FFF;
+    width: auto;
+}
+.foot-main p{
+    padding-bottom: 90px;
+}
+footer #cp, footer #cp a{
+    text-align: center;
+    color: #FFF;
+    margin-top: 0.6rem;
+    font-size: 18px;
+}

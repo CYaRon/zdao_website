@@ -1,0 +1,156 @@
+.ad-top {
+    width: 1000px;
+    margin: auto;
+    height: auto;
+}
+.ad-top > img {
+    width: 1000px;
+}
+
+.main{
+    width: 1000px;
+    margin: auto;
+    height: auto;
+}
+.main-right{
+    width: 276px;
+    float: right;
+    background-color: #FFF;
+    height: auto;
+}
+.main-right > img{
+    width: 276px;
+    height: auto;
+}
+
+.main-right > ul{
+    height: auto;
+}
+.main-right > ul> li {
+    margin: 25px auto;
+}
+.main-right > ul> li > a {
+    display: block;
+}
+.main-right > ul> li > a > img{
+    width: 276px;
+    height: 110px;
+}
+.main-left{
+    width: 1005px;
+    background-color: #FFF;
+    height: auto;
+    position: relative;
+}
+.main-left > ul{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: url(../img/course_bg.png) repeat;
+}
+.main-left > ul > li{
+    width: 450px;
+    height: 550px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: inline-block;
+    vertical-align:top;
+    position: relative;
+}
+.main-left > ul > li > a{
+    background-color: #FFF;
+    display: block;
+    width: 450px;
+    height: 550px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: solid 3px #B2A68E;
+    text-decoration: none;
+}
+
+.main-left .course-list > li > a > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin: 80px 150px 10px 150px;
+}
+.main-left .course-list p{
+    text-align: center;
+}
+.main-left .course-list .course-name{
+    margin: 10px 40px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4E5F71;
+}
+.main-left .course-list .course-teacher{
+    margin: 10px auto;
+    font-size: 28px;
+    font-weight: bold;
+    color: #AAB1C3;
+}
+.main-left .course-list .course-content{
+    margin: 20px 40px;
+    font-size: 18px;
+    color: #A2B2C2;
+}
+.main-left .course-list .course-link{
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    color: #D63A01;
+    border: 3px solid #D63A01;
+    border-radius: 50px;
+}
+
+
+/*
+    课程标签
+*/
+.course-list .label-hot:after{
+    position: absolute;
+    right: 2px;
+    top: 15px;
+    width: 65px;
+    height: 0;
+    content: "热招中";
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-bottom: 50px solid #FF4747;
+    border-left: 50px dashed transparent;
+    border-right: 50px dashed transparent;
+    transform:rotate(45deg);
+    /* -webkit-transition: transform .25s;
+      -moz-transition: transform .25s;
+       -ms-transition: transform .25s;
+        -o-transition: transform .25s;
+           transition: transform .25s; */
+}
+.course-list .label-good:after{
+    position: absolute;
+    right: 2px;
+    top: 15px;
+    width: 65px;
+    height: 0;
+    content: "口碑极佳";
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-bottom: 50px solid #E5C903;
+    border-left: 50px dashed transparent;
+    border-right: 50px dashed transparent;
+    transform:rotate(45deg);
+    /* -webkit-transition: transform .25s;
+      -moz-transition: transform .25s;
+       -ms-transition: transform .25s;
+        -o-transition: transform .25s;
+           transition: transform .25s; */
+}

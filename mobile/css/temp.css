@@ -1,0 +1,67 @@
+@media all and (min-width:768px){.sect_service .inner .list li figure{overflow:hidden;position:relative;margin:10px 0 0;width:254px;height:156px}
+.sect_service .inner .list li figure img{-webkit-transition:.5s;transition:.5s}
+}
+@media screen and (max-width:767px){.sect_service .inner .list li figure{overflow:hidden;position:relative;float:left;margin:-33px 0 0;border:1px solid #dedede;border-radius:5px;width:75px;height:75px}
+.sect_service .inner .list li figure:before{content:"";display:block;position:absolute;z-index:1;top:0;left:0;border:7px solid transparent;border-top:7px solid #2f8ace;border-left:7px solid #2f8ace;border-radius:4px 0 0;width:0;height:0}
+.sect_service .inner .list li figure img{position:absolute;left:-50%;margin-left:15px;width:auto;height:75px}
+.sect_service .inner .list li figure img._ex{margin-left:40px}
+.sect_service .inner .list li figure img._ex2{margin-left:37px}
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 100%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, address, blockquote, pre, div, dl, dt, dd, ol, ul, li, th, td, form, fieldset, input, textarea{
+    margin: 0;
+    padding: 0;
+}
+{.inner .leaf li{
+    border-bottom: 1px solid #dedede;
+}}
+{.inner .leaf li img{
+    position: absolute;
+    left: -50%;
+    margin-left: 15px;
+    width: auto;
+    height: 75px;
+}}
+{.inner .leaf li .logo1{
+    overflow: hidden;
+    margin: 0 0 0 92px;
+    width: 115px;
+    height: 33px;
+    background-size: 115px 33px;
+    text-align: left;
+    text-indent: -1000%;
+    -webkit-background-size: 115px 33px;
+}}
+{.inner .list li .txt{
+    float: left;
+    margin: 2px 0 0 12px;
+    padding: 0 0 0 6px;
+    width: 64%;
+    text-align: left;
+    line-height: 1.42;
+}}
+.inner .leaf li{
+    position: relative;
+}
+.inner .leaf h2{
+    background:url(../image/leaf.png)  0 0 no-repeat;
+    background-size: 115px 33px;
+    -webkit-background-size: 115px 33px;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
