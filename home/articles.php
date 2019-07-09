@@ -155,6 +155,8 @@
                         echo "&nbsp;&nbsp;&nbsp;阅读数：" . $row["read_num"] . "次";
                         echo "&nbsp;&nbsp;</h3>";
                         echo $row["content"];
+                    }else{
+                        echo "<script> location.href='./'; </script>";
                     }
                     ?>
                 </ul>

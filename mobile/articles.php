@@ -31,10 +31,12 @@
             <div class="article">
                 <?php
                     require("connect.php");
+                    require("./php/myfunction.php");
                     $id = $_GET["id"];
                     $sql = "SELECT id, title, author, read_num, like_num, href, content, update_time FROM article WHERE id={$id}";
                     $result = $conn->query($sql);
                     if ($result->num_rows > 0) {
+                        read_numctn("article",$id);
                         $row = $result->fetch_assoc();
                         $author = empty($row["author"])? "":("作者：".$row["author"]."&nbsp;&nbsp;&nbsp;");
                         echo "<h1>".$row["title"]."</h1>";
@@ -47,7 +49,10 @@
             </div>
             <div class="article-bottom">
                 <ul>
-                    <li id="article-up"><a href="javascript:void(0)"><i class="fa fa-thumbs-o-up"></i>&nbsp;点赞</a></li>
+                    <?php
+                        echo "<li id=\"article-up\"><a href=\"javascript:void(0)\" onclick=\"read_numctn(\"article\",{$id})\"><i class=\"fa fa-thumbs-o-up\"></i>&nbsp;点赞</a></li>";
+                     ?>
+
                     <li id="article-share"><a href="javascript:void(0)"><i class="fa fa-share-alt"></i>&nbsp;分享</a></li>
 
                 </ul>
@@ -157,7 +162,12 @@
                   }
                 });
             });
-
         </script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- <script type="text/javascript">
+            $(document).ready(function(){
+                likestatus();
+            })
+        </script> -->
     </body>
 </html>

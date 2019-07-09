@@ -106,30 +106,6 @@
             <p><a href="./">首页</a>&nbsp;&gt;&nbsp;<a href="./counseling?pageNo=1">心理咨询</a>&nbsp;&gt;&nbsp;咨询详情</p>
         </div>
         <div class="main">
-            <!-- <div class="main-right" id="front-r">
-                <img src="img/ad_title.png" alt="">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="img/Jon Allen.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="img/Sagman.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="img/Sagman.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div> -->
             <div class="main-left">
                 <ul class="article">
                     <?php
@@ -142,6 +118,7 @@
                     $sql = "SELECT id, title, author, read_num, like_num, href, content, update_time FROM counseling WHERE id={$id}";
                     $result = $conn->query($sql);
                     if ($result->num_rows > 0) {
+                        read_numctn("counseling",$id);
                         $row = $result->fetch_assoc();
                         $author = empty($row["author"])? "":("作者：".$row["author"]."&nbsp;&nbsp;&nbsp;");
                         echo "<h1>".$row["title"]."</h1>";
