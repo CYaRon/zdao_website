@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./css/global.css">
         <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
         <script src="js/myshare.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
     </head>
     <body>
         <a href="#"><img class="top" src="./img/up.png" alt="#"></a>
@@ -50,7 +51,7 @@
             <div class="article-bottom">
                 <ul>
                     <?php
-                        echo "<li id=\"article-up\"><a href=\"javascript:void(0)\" onclick=\"read_numctn(\"article\",{$id})\"><i class=\"fa fa-thumbs-o-up\"></i>&nbsp;点赞</a></li>";
+                        echo "<li id=\"article-up\"><a href=\"javascript:void(0)\" onclick=\"like_numctn('article',{$id})\"><i class=\"fa fa-thumbs-o-up\"></i>&nbsp;点赞</a></li>";
                      ?>
 
                     <li id="article-share"><a href="javascript:void(0)"><i class="fa fa-share-alt"></i>&nbsp;分享</a></li>

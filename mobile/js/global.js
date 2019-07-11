@@ -1,4 +1,4 @@
-function read_numctn(table_name,article_id){
+function like_numctn(table_name,article_id){
     var xmlhttp;
 	//console.log("show: "+pageNo);
 	if (window.XMLHttpRequest)
@@ -16,7 +16,7 @@ function read_numctn(table_name,article_id){
 		if (xmlhttp.readyState==4 && xmlhttp.status==200)
 		{   //回调成功后 TODO 添加class
 			//document.getElementById("MyCourseList").innerHTML=xmlhttp.responseText;
-
+            console.log(xmlhttp.responseText);
 		}
 	}
 	xmlhttp.open("GET","./php/like_num_status.php?table_name="+table_name+"&article_id="+article_id,true);
