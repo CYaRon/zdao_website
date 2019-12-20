@@ -19,6 +19,5 @@
         $result = $conn->query($sql);
         echo "2";
     }
-    echo "3";
     $conn->close();
  ?>

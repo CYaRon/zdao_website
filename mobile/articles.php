@@ -6,7 +6,9 @@
         <link rel="stylesheet" href="./css/articles.css?v=102">
         <link rel="stylesheet" href="./css/global.css">
         <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
-        <script src="js/myshare.js"></script>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/myshare.js"></script>
         <script type="text/javascript" src="js/global.js"></script>
     </head>
     <body>
@@ -31,7 +33,7 @@
 
             <div class="article">
                 <?php
-                    require("connect.php");
+                    require("./php/connect.php");
                     require("./php/myfunction.php");
                     $id = $_GET["id"];
                     $sql = "SELECT id, title, author, read_num, like_num, href, content, update_time FROM article WHERE id={$id}";
@@ -51,7 +53,17 @@
             <div class="article-bottom">
                 <ul>
                     <?php
-                        echo "<li id=\"article-up\"><a href=\"javascript:void(0)\" onclick=\"like_numctn('article',{$id})\"><i class=\"fa fa-thumbs-o-up\"></i>&nbsp;点赞</a></li>";
+                        $ip_address = getip();
+                        $table_name = "article";
+                        $article = $table_name ."zdxl". $id;
+                        $sql= "SELECT id FROM article_likenum WHERE table_name='{$table_name}' and article_id='{$id}' and ip_address='{$ip_address}'";
+                        $result = $conn->query($sql);
+                        if ($result->num_rows > 0) {
+                            echo "<li id=\"article-up\"><a class=\"active\"  href=\"javascript:void(0)\" onclick=\"like_numctn('article',{$id})\"><i class=\"fa fa-thumbs-o-up\"></i>&nbsp;点赞</a></li>";
+                        }else{
+                            echo "<li id=\"article-up\"><a class=\"no_active\"  href=\"javascript:void(0)\" onclick=\"like_numctn('article',{$id})\"><i class=\"fa fa-thumbs-o-up\"></i>&nbsp;点赞</a></li>";
+                        }
+
                      ?>
 
                     <li id="article-share"><a href="javascript:void(0)"><i class="fa fa-share-alt"></i>&nbsp;分享</a></li>
@@ -164,7 +176,6 @@
                 });
             });
         </script>
-        <script type="text/javascript" src="js/jquery.min.js"></script>
         <!-- <script type="text/javascript">
             $(document).ready(function(){
                 likestatus();

@@ -92,9 +92,31 @@
     color: #E97664;
     border: 2px solid #E97664;
 }
-.content .article-bottom ul #article-up a:hover{
+.content .article-bottom ul #article-up .no_active:hover .fa-thumbs-o-up{
+    /* color: #FFF;
+    background-color: #E97664; */
+    -webkit-animation-name:mymove;/*定义动画的名字，和keyframes定义的动画名一样*/
+    -webkit-animation-duration: 400ms;/*动画持续时间*/
+    -webkit-animation-timing-function: step-start; /*动画频率，和transition-timing-function是一样的*/
+    -webkit-animation-delay: 0s;/*动画延迟时间*/
+    -webkit-animation-iteration-count: 1;/*定义循环资料，infinite为无限次*/
+    -webkit-animation-direction: alternate;/*定义动画方式*/
+    transform:translateY(0px);
+}
+.content .article-bottom ul #article-up .active{
     color: #FFF;
     background-color: #E97664;
+}
+.content .article-bottom ul #article-up .active .fa-thumbs-o-up{
+}
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+0% {transform:translateY(-5px);}
+20% {transform:translateY(-10px);}
+40% {transform:translateY(-15px);}
+60% {transform:translateY(-20px);}
+80% {transform:translateY(-15px);}
+100% {transform:translateY(-5px);}
 }
 .content .article-bottom ul #article-share a{
     color: #78CD78;
